@@ -73,7 +73,7 @@ function TagSelectItem (props) {
               props.selected && props.itemLabelStyleSelected
             ]}
           >
-            {props.label}
+            :{props.label}:
           </Text>
         </View>
       </TouchableOpacity>
